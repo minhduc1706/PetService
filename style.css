@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,7 +34,7 @@ header {
     padding: 15px 140px;
     position: fixed;
     z-index: 1;
-    background-color: aliceblue;
+    background-color: #fff;
 }
 
 header .logo {
@@ -92,7 +92,7 @@ header .header_right .rel .num {
     bottom: 0;
     left: 17px;
     background-color: black;
-    color: aliceblue;
+    color: #fff;
     width: 16px;
     height: 16px;
     display: flex;
@@ -115,7 +115,7 @@ header .header_right .rel .total {
 .banner {
     width: 100%;
     height: 75vh;
-    background: url(image/banner.webp) no-repeat center center / cover;
+    background: url(Design/background.png) no-repeat center center/ cover;
     position: relative;
     top: 80px;
 }
@@ -159,7 +159,7 @@ header .header_right .rel .total {
     justify-content: center;
     align-items: center;
     position: relative;
-    color: aliceblue;
+    color: #fff;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
@@ -197,11 +197,11 @@ header .header_right .rel .total {
 }
 
 .ball.green {
-    background-color: #00cc00;
+    background-color: rgb(0, 191, 99);
 }
 
 .ball.yellow {
-    background-color: #e6e600;
+    background-color: rgb(245, 207, 56)
 }
 
 .ball.brown {
@@ -266,7 +266,7 @@ header .header_right .rel .total {
 
 .shop_category .food .food_items {
     width: 49%;
-    background-color: aliceblue;
+    background-color: #fff;
     border-radius: 12px;
     overflow: hidden;
     display: flex;
@@ -284,7 +284,7 @@ header .header_right .rel .total {
 
 .food_details .review,
 .food_details {
-    padding-left: 25px;
+    padding-left: 1px;
     padding-top: 15px;
 }
 
@@ -323,7 +323,7 @@ button {
 
 button:hover {
     background-color: black;
-    color: aliceblue;
+    color: #fff;
 }
 
 /* shop category 2  */
@@ -343,6 +343,7 @@ button:hover {
 
 .single_pet .img {
     width: 100%;
+    padding-bottom: 20px;
 }
 
 .single_pet .img img:hover {
@@ -369,7 +370,7 @@ button:hover {
 .second_banner {
     width: 100%;
     height: 70vh;
-    background: url(image/shopnow_banner.webp) no-repeat center center / cover;
+    background: url(Design/background2.png) no-repeat center center / cover;
     position: relative;
 }
 
@@ -384,14 +385,14 @@ button:hover {
 }
 
 .second_banner .txt h5 {
-    color: aliceblue;
+    color: #fff;
     font-size: 19px;
     font-weight: normal;
     letter-spacing: 1px;
 }
 
 .second_banner .txt h2 {
-    color: aliceblue;
+    color: #fff;
     font-size: 54px;
     letter-spacing: 1px;
     line-height: 1;
@@ -644,7 +645,7 @@ button:hover {
 .bf_banner {
     width: 100%;
     height: 90vh;
-    background: url(image/big_banner.webp) no-repeat center center / cover;
+    background: url(Design/lastBG.png) no-repeat center center / cover;
     position: relative;
 }
 
@@ -699,6 +700,8 @@ button:hover {
 
 /* footer  */
 .footer_top {
+    margin-top: 50px;
+    margin-bottom: 30px~;
     display: flex;
     justify-content: space-around;
 }
